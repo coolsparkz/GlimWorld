@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gimworld is a builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot challenges, and collaborate with other builders. Join our active community today.">
+    <meta name="description" content="Gimworld is a builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot challenges, and collaborate with other builders.">
     <meta name="keywords" content="Gimkit, Gimkit Creative, community, builders, game design, educational games, learning community, Gimkit games, tutorial, guides">
     <meta name="author" content="gimworld community">
-    <meta name="theme-color" content="#4F46E5">
+    <meta name="theme-color" content="#003366">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GimWorld – Community for Gimkit Creative Builders">
     <meta property="og:description" content="A builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot, and collaborate with other builders.">
@@ -28,164 +28,329 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            line-height: 1.8;
+            color: #003366;
+            background: linear-gradient(135deg, #003366 0%, #004d80 100%);
             background-attachment: fixed;
         }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
             padding: 40px 20px;
         }
+
+        /* Skip to main content link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #003366;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
         header {
             text-align: center;
             padding: 80px 0 60px;
             color: #fff;
         }
+
         h1 {
             font-size: 4em;
             margin-bottom: 15px;
             font-weight: 800;
-            text-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
             letter-spacing: -1px;
             color: #fff;
         }
+
         .tagline {
             font-size: 1.4em;
-            color: rgba(255,255,255,0.95);
+            color: rgba(255,255,255,0.98);
             margin-bottom: 40px;
             font-weight: 300;
+            line-height: 1.6;
         }
+
         .cta-button {
             display: inline-block;
             padding: 18px 50px;
             background: #fff;
-            color: #667eea;
+            color: #003366;
             text-decoration: none;
+            border: 2px solid #fff;
             border-radius: 50px;
             font-weight: 700;
             font-size: 1.2em;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
-        .cta-button:hover {
+
+        .cta-button:hover,
+        .cta-button:focus {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(0,0,0,0.3);
             background: #f0f0f0;
+            outline: 2px solid #003366;
+            outline-offset: 2px;
         }
+
+        .cta-button:focus {
+            outline: 3px solid #003366;
+        }
+
         .content-card {
             background: #fff;
             border-radius: 15px;
             padding: 40px;
             margin: 30px 0;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border: 2px solid #e0e0e0;
         }
+
         section {
             margin: 30px 0;
         }
+
         h2 {
             font-size: 2.2em;
             margin-bottom: 20px;
-            color: #667eea;
+            color: #003366;
             font-weight: 700;
+            border-bottom: 3px solid #003366;
+            padding-bottom: 10px;
         }
+
         p {
             margin-bottom: 15px;
             font-size: 1.15em;
-            color: #444;
+            color: #333;
+            line-height: 1.8;
         }
+
         .steps {
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8eef7 100%);
             padding: 30px;
             border-radius: 10px;
             margin: 25px 0;
-            border-left: 5px solid #667eea;
+            border-left: 5px solid #003366;
+            border: 2px solid #003366;
+            border-left: 5px solid #003366;
         }
+
         .steps ol {
             margin-left: 25px;
         }
+
         .steps li {
             margin: 15px 0;
             font-size: 1.15em;
-            color: #333;
+            color: #003366;
+            line-height: 1.8;
         }
+
         .steps a {
-            color: #667eea;
-            font-weight: 600;
-            text-decoration: none;
-        }
-        .steps a:hover {
+            color: #003366;
+            font-weight: 700;
             text-decoration: underline;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 2px;
         }
+
+        .steps a:hover,
+        .steps a:focus {
+            background-color: #fff3cd;
+            outline: 2px solid #003366;
+            outline-offset: 2px;
+        }
+
         .guidelines {
             background: #f5f7fa;
             padding: 25px;
             border-radius: 10px;
             margin: 20px 0;
+            border: 2px solid #d0d0d0;
         }
+
         .guidelines ul {
             margin-left: 25px;
         }
+
         .guidelines li {
             margin: 12px 0;
             font-size: 1.15em;
-            color: #333;
+            color: #003366;
+            line-height: 1.8;
         }
+
         .highlight-box {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #003366 0%, #004d80 100%);
             color: #fff;
             padding: 30px;
             border-radius: 10px;
             text-align: center;
             margin: 30px 0;
+            border: 2px solid #fff;
         }
+
+        .highlight-box h2 {
+            color: #fff;
+            border-bottom: 3px solid #fff;
+        }
+
         .highlight-box a {
             color: #fff;
             font-weight: 700;
             font-size: 1.3em;
-            text-decoration: none;
+            text-decoration: underline;
             border-bottom: 2px solid #fff;
             padding-bottom: 2px;
         }
-        .highlight-box a:hover {
-            border-bottom: 3px solid #fff;
+
+        .highlight-box a:hover,
+        .highlight-box a:focus {
+            background-color: rgba(255,255,255,0.2);
+            outline: 2px solid #fff;
+            outline-offset: 2px;
         }
+
         footer {
             text-align: center;
-            padding: 40px 0;
-            color: rgba(255,255,255,0.9);
+            padding: 40px 20px;
+            color: rgba(255,255,255,0.95);
             margin-top: 60px;
+            background: rgba(0,0,0,0.2);
+            border-top: 2px solid rgba(255,255,255,0.3);
         }
+
         footer a {
             color: #fff;
-            text-decoration: none;
+            text-decoration: underline;
             font-weight: 600;
             margin: 0 15px;
         }
-        footer a:hover {
-            text-decoration: underline;
+
+        footer a:hover,
+        footer a:focus {
+            outline: 2px solid #fff;
+            outline-offset: 2px;
         }
+
         .emoji {
             font-size: 1.5em;
             margin-right: 10px;
+            aria-hidden: true;
         }
+
+        /* Keyboard focus indicator for all interactive elements */
+        a:focus,
+        button:focus {
+            outline: 3px solid #ffb81c;
+            outline-offset: 2px;
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            }
+            
+            .content-card {
+                background: #2a2a3e;
+                color: #e0e0e0;
+                border-color: #444;
+            }
+
+            h2 {
+                color: #e0e0e0;
+                border-bottom-color: #e0e0e0;
+            }
+
+            p {
+                color: #d0d0d0;
+            }
+
+            .steps {
+                background: #1a1a2e;
+                border-color: #e0e0e0;
+            }
+
+            .steps li {
+                color: #e0e0e0;
+            }
+
+            .guidelines {
+                background: #1a1a2e;
+                border-color: #444;
+                color: #d0d0d0;
+            }
+        }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Mobile responsiveness */
         @media (max-width: 768px) {
             h1 {
                 font-size: 2.5em;
             }
+
             h2 {
                 font-size: 1.8em;
             }
+
             .content-card {
                 padding: 25px;
+            }
+
+            .cta-button {
+                font-size: 1em;
+                padding: 15px 40px;
+            }
+
+            p {
+                font-size: 1.05em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .tagline {
+                font-size: 1.1em;
+            }
+
+            header {
+                padding: 40px 0 30px;
             }
         }
     </style>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <div class="container">
         <header>
             <img src="gim.JPG" alt="Gimworld logo - community for Gimkit Creative builders" style="max-width: 250px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
@@ -194,58 +359,59 @@
             <a href="https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Join the Community</a>
         </header>
 
-        <div class="content-card">
-            <section>
-                <h2>What is GimWorld?</h2>
-                <p>GimWorld is where Gimkit Creative builders come together to share their work, learn new techniques, troubleshoot challenges, and collaborate on projects. Whether you're building your first game or refining advanced mechanics, our community provides support, inspiration, and resources to help you succeed.</p>
-                <p>Our mission is to foster a welcoming, respectful space for educators and students who want to create engaging educational games using Gimkit Creative. Share your builds, discover innovative design patterns, get feedback, and connect with fellow builders around the world.</p>
-            </section>
-        </div>
+        <main id="main-content">
+            <div class="content-card">
+                <section>
+                    <h2>What is GimWorld?</h2>
+                    <p>GimWorld is where Gimkit Creative builders come together to share their work, learn new techniques, troubleshoot challenges, and collaborate on projects. Whether you're building your first game or perfecting advanced mechanics, you'll find support, inspiration, and community here.</p>
+                    <p>Our mission is to foster a welcoming, respectful space for educators and students who want to create engaging educational games using Gimkit Creative. Share your builds, discover innovative strategies, and grow alongside fellow creators.</p>
+                </section>
+            </div>
 
-        <div class="content-card">
-            <section>
-                <h2>How to Join</h2>
-                <p>Getting started with GimWorld is easy! Follow these simple steps to join our active builder community:</p>
-                <div class="steps">
-                    <ol>
-                        <li>Visit the <a href="https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">GimWorld Padlet</a></li>
-                        <li>Review the Community Rules & FAQ to understand our guidelines</li>
-                        <li>Start sharing your creations and connecting with other builders</li>
-                    </ol>
-                </div>
-                <a href="https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Go to Padlet</a>
-            </section>
-        </div>
+            <div class="content-card">
+                <section>
+                    <h2>How to Join</h2>
+                    <p>Getting started with GimWorld is easy! Follow these simple steps to join our active builder community:</p>
+                    <div class="steps">
+                        <ol>
+                            <li>Visit the <a href="https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">GimWorld Padlet</a></li>
+                            <li>Review the Community Rules & FAQ to understand our guidelines</li>
+                            <li>Start sharing your creations and connecting with other builders</li>
+                        </ol>
+                    </div>
+                    <a href="https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Go to Padlet</a>
+                </section>
+            </div>
 
-        <div class="content-card">
-            <section>
-                <h2>Community Guidelines</h2>
-                <p>We maintain a positive, inclusive environment for all members. Here's what we stand for:</p>
-                <div class="guidelines">
-                    <p><strong>Core Values:</strong></p>
-                    <ul>
-                        <li><span class="emoji">✅</span>Be respectful and supportive of all community members</li>
-                        <li><span class="emoji">🎨</span>Share your builds, tutorials, and help others learn</li>
-                        <li><span class="emoji">💡</span>Encourage collaboration and creative problem-solving</li>
-                        <li><span class="emoji">🚫</span>No spam or self-promotion outside of your creations</li>
-                        <li><span class="emoji">📚</span>Keep discussions constructive and on-topic</li>
-                    </ul>
-                </div>
-                <p style="margin-top: 20px;">Read the full <strong>Community Rules & FAQ</strong> on the Padlet for detailed guidelines.</p>
-            </section>
-        </div>
+            <div class="content-card">
+                <section>
+                    <h2>Community Guidelines</h2>
+                    <p>We maintain a positive, inclusive environment for all members. Here's what we stand for:</p>
+                    <div class="guidelines">
+                        <p><strong>Core Values:</strong></p>
+                        <ul>
+                            <li><span class="emoji" aria-hidden="true">✅</span>Be respectful and supportive of all community members</li>
+                            <li><span class="emoji" aria-hidden="true">🎨</span>Share your builds, tutorials, and help others learn</li>
+                            <li><span class="emoji" aria-hidden="true">💡</span>Encourage collaboration and creative problem-solving</li>
+                            <li><span class="emoji" aria-hidden="true">🚫</span>No spam or self-promotion outside of your creations</li>
+                            <li><span class="emoji" aria-hidden="true">📚</span>Keep discussions constructive and on-topic</li>
+                        </ul>
+                    </div>
+                    <p style="margin-top: 20px;">Read the full <strong>Community Rules & FAQ</strong> on the Padlet for detailed guidelines.</p>
+                </section>
+            </div>
 
-        <div class="highlight-box">
-            <h2 style="color: #fff; margin-bottom: 15px;">Need Help?</h2>
-            <p style="color: rgba(255,255,255,0.95); margin-bottom: 20px;">Have questions, suggestions, or need support? We'd love to hear from you!</p>
-            <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">Contact Us</a>
-        </div>
+            <div class="highlight-box">
+                <h2 style="color: #fff; margin-bottom: 15px;">Need Help?</h2>
+                <p style="color: rgba(255,255,255,0.95); margin-bottom: 20px;">Have questions, suggestions, or need support? We'd love to hear from you!</p>
+                <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">Contact Us</a>
+            </div>
+        </main>
     </div>
-    
-    <!-- Copyright footer -->
-    <footer style="margin-top: 80px; padding: 40px 20px; background: rgba(0,0,0,0.2); text-align: center; font-size: 0.9em;">
+
+    <footer>
         <p>&copy; 2026 GimWorld – Independent community for Gimkit Creative builders</p>
-        <p style="margin-top: 10px; opacity: 0.8; font-size: 0.85em;">Not affiliated with Gimkit, Inc. | <a href="LICENSE" style="color: #fff;">MIT License</a></p>
+        <p style="margin-top: 10px; opacity: 0.9; font-size: 0.95em;">Not affiliated with Gimkit, Inc. | <a href="LICENSE">MIT License</a></p>
         <p style="margin-top: 20px;">
             <a href="https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">Padlet</a> | 
             <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">Contact</a> | 
