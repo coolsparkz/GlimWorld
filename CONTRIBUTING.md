@@ -5,7 +5,7 @@ Thanks for your interest in improving gimworld! Here's how you can help.
 ## Ways to Contribute
 
 ### 1. Report Issues
-Found a bug or broken link? [Open an issue](https://github.com/leonel12/gimworld/issues) with:
+Found a bug or broken link? [Open an issue](https://github.com/leoNEL12-debug/gimworld/issues) with:
 - Clear description
 - Steps to reproduce
 - Screenshots (if applicable)
