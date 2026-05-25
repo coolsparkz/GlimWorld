@@ -5,7 +5,7 @@ gimworld is a builder-focused community for Gimkit Creative creators. Share your
 
 - 💬 [Join our community](https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb)
 - 📧 [Contact Form](https://forms.office.com/r/kFyH7TXtQJ)
-- 🌐 [Visit gimworld.com](https://leonel12.github.io/gimworld/)
+- 🌐 [Visit gimworld](https://leonel12-debug.github.io/gimworld/)
 
 ## Contributing
 
