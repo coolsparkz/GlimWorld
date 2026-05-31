@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-We currently support the following versions of the gimworld site:
+We currently support the following versions of the GlimWorld site:
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -12,7 +12,7 @@ We currently support the following versions of the gimworld site:
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in the gimworld site or repository, please report it responsibly.
+If you discover a security vulnerability in the GlimWorld site or repository, please report it responsibly.
 
 ### How to Report
 
@@ -38,7 +38,7 @@ Please provide:
 
 ## Security Best Practices
 
-For gimworld community members:
+For GlimWorld community members:
 
 - Keep your browser and extensions up to date
 - Never share your personal information publicly
@@ -50,13 +50,13 @@ For gimworld community members:
 ## Scope
 
 This policy covers:
-- The gimworld GitHub Pages site
+- The GlimWorld GitHub Pages site
 - This repository and its code
 - Links and integrations (Padlet, contact form)
 
 ## Dependencies
 
-gimworld uses the following tools and services:
+GlimWorld uses the following tools and services:
 - GitHub Actions for CI/CD
 - Node.js for build tools
 - Standard web technologies (HTML, CSS, JavaScript)
@@ -68,4 +68,4 @@ We regularly audit dependencies for vulnerabilities using:
 
 ---
 
-**Thank you for helping keep gimworld safe and secure!** 🔒
+**Thank you for helping keep GlimWorld safe and secure!** 🔒
