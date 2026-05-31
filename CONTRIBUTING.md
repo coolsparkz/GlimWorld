@@ -1,11 +1,11 @@
-# Contributing to gimworld
+# Contributing to GlimWorld
 
-Thanks for your interest in improving gimworld! Here's how you can help.
+Thanks for your interest in improving GlimWorld! Here's how you can help.
 
 ## Ways to Contribute
 
 ### 1. Report Issues
-Found a bug or broken link? [Open an issue](https://github.com/leoNEL12-debug/gimworld/issues) with:
+Found a bug or broken link? [Open an issue](https://github.com/leoNEL12-debug/GlimWorld/issues) with:
 - Clear description
 - Steps to reproduce
 - Screenshots (if applicable)
@@ -26,7 +26,7 @@ Want to improve the site code?
 7. Open a Pull Request
 
 ### 4. Share Content
-- Submit your Gimkit Creative builds to our [Padlet](https://padlet.com/ForeverGimWorld/gimworld-romw9j63mcbzwbjb)
+- Submit your Gimkit Creative builds to our [Padlet](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
 - Help other builders troubleshoot
 - Share tutorials and guides
 
@@ -43,4 +43,4 @@ Use our [contact form](https://forms.office.com/r/kFyH7TXtQJ) or open an issue.
 
 ---
 
-**Thanks for being part of gimworld!**
+**Thanks for being part of GlimWorld!**
