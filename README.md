@@ -17,8 +17,8 @@ See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## 📰 News & Updates
 
-**May 26, 2026** — **Official CivBoard Partnership**  
-We're officially partnering with CivBoard in a cross-community collaboration. Check out the new Partnerships section in our Community Rules & FAQ! [Check it out!](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
+**June 6th, 2026** — **Sign up for our GimTourney!**  
+GimTourney is on June 9th! Don't forget to sign up and join thousands! [Check it out!](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
 
 **May 20, 2026** — **GitHub Pages Site Launch**  
 Our new public hub is live at [leonel12.github.io/GlimWorld](https://leonel12-debug.github.io/GlimWorld/) — your go-to place for news, resources, and community info.
