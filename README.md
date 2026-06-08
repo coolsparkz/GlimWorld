@@ -36,6 +36,7 @@ GlimWorld is an independent, community-run platform dedicated to supporting Gimk
 - 💬 **[Padlet Community](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)** — Central hub for discussions and sharing
 - 📧 **[Contact Form](https://forms.office.com/r/kFyH7TXtQJ)** — Send us feedback or questions
 - 🐙 **[GitHub Repository](https://github.com/leoNEL12-debug/GlimWorld)** — Contribute to our open-source project
+- 🤝 **[Partnership Opportunities](PARTNERSHIPS.md)** — Grow together with GlimWorld!
 
 ---
 
@@ -61,11 +62,27 @@ Read our full [**Community Guidelines**](CONTRIBUTING.md) and [**Code of Conduct
 
 ---
 
+## 🤝 Partnership Opportunities
+
+**Interested in growing with GlimWorld?**
+
+We're actively seeking partnerships with:
+- 🎓 Educational institutions and districts
+- 🎬 Content creators and educators
+- 🛠️ Tool and platform developers
+- 💰 Sponsorship opportunities
+- 📚 Community resource collaborators
+
+**Learn more:** [View Partnership Opportunities](PARTNERSHIPS.md)
+
+---
+
 ## 🔒 Security & License
 
 - **License:** MIT License — See [LICENSE](LICENSE) file
 - **Security Policy:** See [SECURITY.md](SECURITY.md)
 - **Code of Conduct:** See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- **Changelog:** See [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -89,11 +106,12 @@ GlimWorld is an **independent, community-run project** created by Gimkit Creativ
 
 ## 💬 Questions or Feedback?
 
-Have ideas? Want to help? Found a bug?
+Have ideas? Want to help? Found a bug? Interested in partnerships?
 
 - 📝 **Use our [Contact Form](https://forms.office.com/r/kFyH7TXtQJ)** for direct inquiries
 - 💬 **Post on [Padlet](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)** to engage with the community
 - 🐙 **Open an issue on [GitHub](https://github.com/leoNEL12-debug/GlimWorld)** for technical feedback
+- 🤝 **[Explore partnerships](PARTNERSHIPS.md)** to grow together
 
 ---
 
@@ -104,6 +122,7 @@ If you love GlimWorld and want to support the community:
 - 👥 **Share** GlimWorld with other builders
 - 💡 **Contribute** ideas and feedback
 - 📣 **Promote** in the Gimkit Creative community
+- 🤝 **Consider partnership opportunities** with us
 
 ---
 
