@@ -1,32 +1,112 @@
-# GlimWorld
-GlimWorld is a builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot, and collaborate with other builders.
+# GlimWorld™
 
-## Community
+**The Builder-Focused Community for Gimkit Creative Creators**
 
-- 💬 [Join our community](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
-- 📧 [Contact Form](https://forms.office.com/r/kFyH7TXtQJ)
-- 🌐 [Visit GlimWorld](https://leonel12-debug.github.io/GlimWorld/)
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## Code of Conduct
-
-See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-
-## 📰 News & Updates
-
-**June 6th, 2026** — **Sign up for our GimTourney!**  
-GimTourney is on June 9th! Don't forget to sign up and join thousands! [Check it out!](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
-
-**May 20, 2026** — **GitHub Pages Site Launch**  
-Our new public hub is live at [leonel12.github.io/GlimWorld](https://leonel12-debug.github.io/GlimWorld/) — your go-to place for news, resources, and community info.
+🎮 **Build** • 🎨 **Share** • 🤝 **Collaborate** • 🚀 **Learn**
 
 ---
 
-## Disclaimer
+## What is GlimWorld?
 
-GlimWorld is an independent, community-run project created to support Gimkit Creative builders. We are not affiliated with, endorsed by, or sponsored by Gimkit, Inc.
+GlimWorld is an independent, community-run platform dedicated to supporting Gimkit Creative builders of all levels. Whether you're creating educational games, interactive maps, or engaging quizzes, GlimWorld is your hub to:
 
-Gimkit and Gimkit Creative are trademarks of Gimkit, Inc.
+- 💬 **Share Your Creations** — Showcase your games, maps, and builds to thousands of builders
+- 📚 **Learn Techniques** — Access tutorials, tips, and tricks from experienced creators
+- 🆘 **Get Help** — Troubleshoot challenges and learn best practices
+- 🤝 **Collaborate** — Connect with builders, find inspiration, and work on projects together
+- 🏆 **Stay Updated** — Get news about events, tournaments, and community highlights
+
+---
+
+## 🚀 Quick Start
+
+### Join the Community in 3 Steps:
+
+1. **Visit GlimWorld Padlet** — [Join our Padlet community](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
+2. **Review Community Guidelines** — Check out our rules and FAQ to understand our values
+3. **Start Building & Sharing** — Post your creations and connect with other builders!
+
+👉 [**Access the Live Site**](https://leonel12-debug.github.io/GlimWorld/)
+
+---
+
+## 📱 Community Links
+
+- 🌐 **[GlimWorld Website](https://leonel12-debug.github.io/GlimWorld/)** — Main hub for announcements and resources
+- 💬 **[Padlet Community](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)** — Central hub for discussions and sharing
+- 📧 **[Contact Form](https://forms.office.com/r/kFyH7TXtQJ)** — Send us feedback or questions
+- 🐙 **[GitHub Repository](https://github.com/leoNEL12-debug/GlimWorld)** — Contribute to our open-source project
+
+---
+
+## 📰 Latest News & Updates
+
+### **June 9th, 2026** — GimTourney Day! 🏆
+Join thousands of Gimkit Creative builders competing in GimTourney! [Sign up now on Padlet](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
+
+### **May 20, 2026** — Website Launch 🚀
+Our new public hub is live! Visit [leonel12-debug.github.io/GlimWorld/](https://leonel12-debug.github.io/GlimWorld/) for news, resources, and community info.
+
+---
+
+## 🎯 Core Community Values
+
+✅ **Respectful & Supportive** — We're kind to all members  
+🎨 **Creative & Collaborative** — We share knowledge and inspire each other  
+💡 **Problem-Solving Focused** — We help each other overcome challenges  
+📚 **Educational** — We prioritize learning and growth  
+🚫 **No Spam** — We keep the community clean and focused  
+
+Read our full [**Community Guidelines**](CONTRIBUTING.md) and [**Code of Conduct**](CODE_OF_CONDUCT.md).
+
+---
+
+## 🔒 Security & License
+
+- **License:** MIT License — See [LICENSE](LICENSE) file
+- **Security Policy:** See [SECURITY.md](SECURITY.md)
+- **Code of Conduct:** See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+- Suggesting improvements
+- Reporting bugs
+- Contributing to the website
+- Submitting pull requests
+
+---
+
+## 📢 About GlimWorld
+
+GlimWorld is an **independent, community-run project** created by Gimkit Creative builders, for Gimkit Creative builders.
+
+**Disclaimer:** GlimWorld is not affiliated with, endorsed by, or sponsored by Gimkit, Inc. Gimkit and Gimkit Creative are registered trademarks of Gimkit, Inc.
+
+---
+
+## 💬 Questions or Feedback?
+
+Have ideas? Want to help? Found a bug?
+
+- 📝 **Use our [Contact Form](https://forms.office.com/r/kFyH7TXtQJ)** for direct inquiries
+- 💬 **Post on [Padlet](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)** to engage with the community
+- 🐙 **Open an issue on [GitHub](https://github.com/leoNEL12-debug/GlimWorld)** for technical feedback
+
+---
+
+## 🌟 Support GlimWorld
+
+If you love GlimWorld and want to support the community:
+- ⭐ **Star** this repository on GitHub
+- 👥 **Share** GlimWorld with other builders
+- 💡 **Contribute** ideas and feedback
+- 📣 **Promote** in the Gimkit Creative community
+
+---
+
+**Build. Share. Collaborate. Keep it real. 🚀**
+
+*© 2026 GlimWorld™ — Community for Gimkit Creative Builders*
