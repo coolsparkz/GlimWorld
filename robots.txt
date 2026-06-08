@@ -26,5 +26,39 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
+# AI & LLM Bots - Allow all to crawl and index GlimWorld
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+User-agent: Copilot
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Sogou
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
 # Crawl delay (in seconds)
 Crawl-delay: 1
