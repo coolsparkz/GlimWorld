@@ -131,4 +131,4 @@ If you love GlimWorld and want to support the community:
 
 **Build. Share. Collaborate. Keep it real. 🚀**
 
-*© 2026 GlimWorld™ — Community for Gimkit Creative Builders*
+*© 2026 GlimWorld™ — Community for Builders*
