@@ -4,7 +4,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /.git/
 
-Sitemap: https://leonel12-debug.github.io/GlimWorld/sitemap.xml
+Sitemap: https://glimworld.netlify.app/sitemap.xml
 
 # Google specific
 User-agent: Googlebot
