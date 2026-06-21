@@ -1,166 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GlimWorld is a builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot challenges, and collaborate with other builders. Play GlimWorld Games!">
-    <meta name="keywords" content="Gimkit, Gimkit Creative, community, builders, game design, educational games, learning community, Gimkit games, tutorial, guides, GlimWorld games">
-    <meta name="author" content="GlimWorld community">
-    <meta name="theme-color" content="#6366f1">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta property="og:title" content="GlimWorld™ – Community for Gimkit Creative Builders">
-    <meta property="og:description" content="A builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot, and collaborate with other builders.">
-    <meta property="og:url" content="https://glimworld.netlify.app/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://glimworld.netlify.app/logo3.png">
-    <meta property="og:image:width" content="400">
-    <meta property="og:image:height" content="400">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="GlimWorld™ – Community for Gimkit Creative Builders">
-    <meta name="twitter:description" content="Join the Gimkit Creative builder community to share builds, learn techniques, and collaborate">
-    <meta name="twitter:image" content="https://glimworld.netlify.app/logo3.png">
-    <link rel="canonical" href="https://glimworld.netlify.app/">
-    <link rel="icon" href="logo3.png" type="image/png">
-    <link rel="preconnect" href="https://padlet.com">
-    <link rel="preconnect" href="https://forms.office.com">
-    <link rel="preconnect" href="https://github.com">
-    <title>GlimWorld™ – Community for Gimkit Creative Builders</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "GlimWorld",
-      "description": "Builder-focused community for Gimkit Creative creators",
-      "url": "https://glimworld.netlify.app/",
-      "logo": "https://glimworld.netlify.app/logo3.png"
-    }
-    </script>
-    <style>
-        *{margin:0;padding:0;box-sizing:border-box}
-        html{scroll-behavior:smooth}
-        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.8;color:#333;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);background-attachment:fixed}
-        .container{max-width:900px;margin:0 auto;padding:40px 20px}
-        .skip-link{position:absolute;top:-40px;left:0;background:#667eea;color:#fff;padding:8px;text-decoration:none;z-index:100}
-        .skip-link:focus{top:0}
-        header{text-align:center;padding:80px 0 60px;color:#fff}
-        h1{font-size:4em;margin-bottom:15px;font-weight:800;text-shadow:2px 2px 4px rgba(0,0,0,.3);letter-spacing:-1px;color:#fff}
-        .tagline{font-size:1.4em;color:rgba(255,255,255,.98);margin-bottom:40px;font-weight:300;line-height:1.6}
-        .cta-button{display:inline-block;padding:18px 50px;background:#fff;color:#667eea;text-decoration:none;border:2px solid #fff;border-radius:50px;font-weight:700;font-size:1.2em;transition:all .3s ease;box-shadow:0 4px 15px rgba(0,0,0,.2);margin:10px}
-        .cta-button:hover,.cta-button:focus{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.3);background:#667eea;color:#fff;outline:2px solid #fff;outline-offset:2px}
-        .cta-button.game-btn{background:#c084fc;color:#000;border-color:#c084fc}
-        .cta-button.game-btn:hover{background:#a855f7;border-color:#a855f7}
-        .content-card{background:#fff;border-radius:15px;padding:40px;margin:30px 0;box-shadow:0 10px 30px rgba(0,0,0,.15);border:2px solid #667eea}
-        section{margin:30px 0}
-        h2{font-size:2.2em;margin-bottom:20px;color:#667eea;font-weight:700;border-bottom:3px solid #667eea;padding-bottom:10px}
-        p{margin-bottom:15px;font-size:1.15em;color:#333;line-height:1.8}
-        .steps{background:linear-gradient(135deg,#f3f4f6 0%,#e5e7eb 100%);padding:30px;border-radius:10px;margin:25px 0;border:2px solid #667eea;border-left:5px solid #667eea}
-        .steps ol{margin-left:25px}
-        .steps li{margin:15px 0;font-size:1.15em;color:#333;line-height:1.8}
-        .steps a{color:#667eea;font-weight:700;text-decoration:underline;border-bottom:2px solid #667eea;padding-bottom:2px}
-        .steps a:hover,.steps a:focus{background-color:#e0e7ff;outline:2px solid #667eea;outline-offset:2px}
-        .guidelines{background:#f9fafb;padding:25px;border-radius:10px;margin:20px 0;border:2px solid #667eea}
-        .guidelines ul{margin-left:25px}
-        .guidelines li{margin:12px 0;font-size:1.15em;color:#333;line-height:1.8}
-        .highlight-box{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:30px;border-radius:10px;text-align:center;margin:30px 0;border:2px solid #fff}
-        .highlight-box h2{color:#fff;border-bottom:3px solid #fff}
-        .highlight-box a{color:#fff;font-weight:700;font-size:1.3em;text-decoration:underline;border-bottom:2px solid #fff;padding-bottom:2px}
-        .highlight-box a:hover,.highlight-box a:focus{background-color:rgba(255,255,255,.2);outline:2px solid #fff;outline-offset:2px}
-        footer{text-align:center;padding:40px 20px;color:rgba(255,255,255,.95);margin-top:60px;background:rgba(0,0,0,.2);border-top:2px solid rgba(255,255,255,.3)}
-        footer a{color:#fff;text-decoration:underline;font-weight:600;margin:0 15px}
-        footer a:hover,footer a:focus{outline:2px solid #fff;outline-offset:2px}
-        .emoji{font-size:1.5em;margin-right:10px}
-        a:focus,button:focus{outline:3px solid #667eea;outline-offset:2px}
-        @media(max-width:768px){h1{font-size:2.5em}h2{font-size:1.8em}.content-card{padding:25px}.cta-button{font-size:1em;padding:15px 40px}p{font-size:1.05em}}
-        @media(max-width:480px){h1{font-size:2em}.tagline{font-size:1.1em}header{padding:40px 0 30px}}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlimWorld</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style>
+body{font-family:sans-serif;background:#0f0528;margin:0;color:#fff}
+.btn{padding:12px 24px;background:#c084fc;color:#000;border:none;border-radius:8px;cursor:pointer;font-weight:bold}
+.btn:hover{background:#a855f7}
+.play-btn{width:120px;height:120px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;background:#c084fc;transition:transform .2s}
+.play-btn:hover{transform:scale(1.1)}
+.hidden{display:none!important}
+.game-card{border-radius:16px;overflow:hidden;cursor:pointer;background:#1e1145;transition:transform .2s}
+.game-card:hover{transform:translateY(-4px)}
+#game-view,#shop-view{display:none;position:fixed;inset:0;z-index:50;background:#0f0528;overflow-y:auto}
+#hud{position:absolute;top:16px;right:16px;z-index:60;color:#fff;font-size:24px;font-weight:bold}
+#level-hud{position:absolute;top:60px;right:16px;z-index:60;color:#fff;font-size:18px}
+.char-option{padding:20px;background:#1e1145;border-radius:12px;text-align:center;cursor:pointer;transition:background .2s}
+.char-option:hover{background:#2d1a5e}
+</style>
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-
-    <div class="container">
-        <header>
-            <img src="gim.JPG" alt="GlimWorld logo - community for Gimkit Creative builders" style="max-width:250px;margin-bottom:20px;display:block;margin-left:auto;margin-right:auto">
-            <h1>GlimWorld&trade;</h1>
-            <p class="tagline">Build, share, collaborate — and keep it real.</p>
-            <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Join the Community</a>
-            <a href="game.html" class="cta-button game-btn">🎮 Play GlimWorld Games</a>
-        </header>
-
-        <main id="main-content">
-            <div class="content-card">
-                <section>
-                    <h2>What is GlimWorld?</h2>
-                    <p>GlimWorld is a builder-focused community for Gimkit Creative creators.</p>
-                    <p>It's where people come together to:</p>
-                    <ul style="margin-left:25px;margin-bottom:15px">
-                        <li>Share their creations — maps, games, builds</li>
-                        <li>Learn techniques — tips, tricks, how-tos</li>
-                        <li>Troubleshoot — get help when stuck</li>
-                        <li>Collaborate — work together on projects</li>
-                        <li><strong>Play GlimWorld Games</strong> — enjoy our custom game collection</li>
-                    </ul>
-                    <p>Our mission: <strong>"Build, share, collaborate — and keep it real."</strong></p>
-                </section>
-            </div>
-
-            <div class="content-card">
-                <section>
-                    <h2>How to Join</h2>
-                    <p>Getting started with GlimWorld is easy! Follow these simple steps to join our active builder community:</p>
-                    <div class="steps">
-                        <ol>
-                            <li>Visit the <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">GlimWorld Padlet</a></li>
-                            <li>Review the Community Rules & FAQ to understand our guidelines</li>
-                            <li>Start sharing your creations and connecting with other builders</li>
-                            <li><strong>Play GlimWorld Games</strong> — try our custom game collection!</li>
-                        </ol>
-                    </div>
-                    <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Go to GlimWorld</a>
-                </section>
-            </div>
-
-            <div class="content-card">
-                <section>
-                    <h2>Community Guidelines</h2>
-                    <p>We maintain a positive, inclusive environment for all members. Here's what we stand for:</p>
-                    <div class="guidelines">
-                        <p><strong>Core Values:</strong></p>
-                        <ul>
-                            <li><span class="emoji" aria-hidden="true">✅</span>Be respectful and supportive of all community members</li>
-                            <li><span class="emoji" aria-hidden="true">🎨</span>Share your builds, tutorials, and help others learn</li>
-                            <li><span class="emoji" aria-hidden="true">💡</span>Encourage collaboration and creative problem-solving</li>
-                            <li><span class="emoji" aria-hidden="true">🚫</span>No spam or self-promotion outside of your creations</li>
-                            <li><span class="emoji" aria-hidden="true">📚</span>Keep discussions constructive and on-topic</li>
-                        </ul>
-                    </div>
-                    <p style="margin-top:20px">Read the full <strong>Community Rules & FAQ</strong> on the GlimWorld Padlet for detailed guidelines.</p>
-                </section>
-            </div>
-
-            <div class="highlight-box">
-                <h2 style="color:#fff;margin-bottom:15px">🎮 Play GlimWorld Games!</h2>
-                <p style="color:#fff;font-size:1.2em;margin-bottom:20px">Experience our custom game collection featuring Obby Tower, Parkour City, Pizza Rush, Speed Racing, Coin Collector, and Tower Defense!</p>
-                <a href="game.html" class="cta-button game-btn" style="background:#fff;color:#c084fc;border-color:#fff">Play Now</a>
-            </div>
-
-            <div class="highlight-box">
-                <h2 style="color:#fff;margin-bottom:15px">Need Help?</h2>
-                <p style="color:#fff;font-size:1.2em">Use our <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">contact form</a> for support or questions.</p>
-            </div>
-        </main>
-
-        <footer>
-            <p>&copy; 2026 GlimWorld&trade; – Independent community for Gimkit Creative builders</p>
-            <p style="margin-top:10px;opacity:1;font-size:.95em">Not affiliated with Gimkit, Inc. | <a href="LICENSE">MIT License</a></p>
-            <p style="margin-top:20px">
-                <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">Padlet</a> | 
-                <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">Contact</a> | 
-                <a href="https://github.com/leoNEL12-debug/GlimWorld" target="_blank" rel="noopener noreferrer">GitHub</a> |
-                <a href="game.html">Play Games</a>
-            </p>
-        </footer>
-    </div>
-
+<header class="p-6 flex justify-between items-center">
+<span class="text-2xl font-bold">GlimWorld</span>
+<div class="flex gap-4">
+<button class="btn" onclick="openShop()">🛒 Shop</button>
+<button class="btn" onclick="alert('WASD/Arrows=Move, Space=Jump/Action')">🎮 Controls</button>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center justify-center px-6 pb-12" style="min-height:80vh">
+<div id="play-screen" class="flex flex-col items-center gap-6">
+<h1 class="text-5xl font-black">GlimWorld</h1>
+<button class="play-btn" onclick="showGames()">
+<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"></polygon></svg>
+</button>
+</div>
+<div id="game-grid" class="hidden grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl w-full mt-8">
+<div class="game-card" onclick="launchGame('obby')">
+<div class="w-full h-40 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-6xl">🧱</div>
+<div class="p-3"><h3 class="font-bold text-lg">Obby Tower</h3></div>
+</div>
+<div class="game-card" onclick="launchGame('parkour')">
+<div class="w-full h-40 bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-6xl">🏃</div>
+<div class="p-3"><h3 class="font-bold text-lg">Parkour City</h3></div>
+</div>
+<div class="game-card" onclick="launchGame('pizza')">
+<div class="w-full h-40 bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center text-6xl">🍕</div>
+<div class="p-3"><h3 class="font-bold text-lg">Pizza Rush</h3></div>
+</div>
+<div class="game-card" onclick="launchGame('racing')">
+<div class="w-full h-40 bg-gradient-to-br from-yellow-500 to-red-500 flex items-center justify-center text-6xl">🏎️</div>
+<div class="p-3"><h3 class="font-bold text-lg">Speed Racing</h3></div>
+</div>
+<div class="game-card" onclick="launchGame('survival')">
+<div class="w-full h-40 bg-gradient-to-br from-green-500 to-teal-500 flex items-center justify-center text-6xl">🏝️</div>
+<div class="p-3"><h3 class="font-bold text-lg">Coin Collector</h3></div>
+</div>
+<div class="game-card" onclick="launchGame('tower')">
+<div class="w-full h-40 bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-6xl">🏰</div>
+<div class="p-3"><h3 class="font-bold text-lg">Tower Defense</h3></div>
+</div>
+</div>
+</main>
+<div id="shop-view">
+<button class="btn" style="position:absolute;top:16px;left:16px;z-index:70" onclick="closeShop()">← Back</button>
+<div class="flex flex-col items-center justify-center h-full p-6">
+<h2 class="text-4xl font-bold mb-8">Character Shop</h2>
+<div id="coins" class="text-2xl mb-8">💰 Coins: <span id="coin-count">0</span></div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl">
+<div class="char-option" onclick="buyChar('purple',0)"><div class="text-6xl mb-2">💜</div><div class="font-bold">Purple Guy</div><div class="text-green-400">FREE</div></div>
+<div class="char-option" onclick="buyChar('red',50)"><div class="text-6xl mb-2">❤️</div><div class="font-bold">Red Hero</div><div class="text-yellow-400">50 Coins</div></div>
+<div class="char-option" onclick="buyChar('blue',100)"><div class="text-6xl mb-2">💙</div><div class="font-bold">Blue Ninja</div><div class="text-yellow-400">100 Coins</div></div>
+<div class="char-option" onclick="buyChar('gold',200)"><div class="text-6xl mb-2">💛</div><div class="font-bold">Gold King</div><div class="text-yellow-400">200 Coins</div></div>
+</div>
+</div>
+</div>
+<div id="game-view">
+<button class="btn" style="position:absolute;top:16px;left:16px;z-index:70" onclick="exitGame()">← Back</button>
+<button class="btn" style="position:absolute;top:16px;right:140px;z-index:70" onclick="pauseAndShop()">🛒 Shop</button>
+<div id="hud">💰 <span id="score">0</span></div>
+<div id="level-hud"></div>
+<div id="game-canvas"></div>
+</div>
+<script>
+let coins=parseInt(localStorage.getItem('coins')||'0'),currentChar=localStorage.getItem('char')||'purple',ownedChars=JSON.parse(localStorage.getItem('owned')||'["purple"]'),parkourLevel=parseInt(localStorage.getItem('parkourLevel')||'1'),obbyLevel=parseInt(localStorage.getItem('obbyLevel')||'1');
+function updateCoins(){document.getElementById('coin-count').textContent=coins;localStorage.setItem('coins',coins)}
+function showGames(){document.getElementById('play-screen').classList.add('hidden');document.getElementById('game-grid').classList.remove('hidden')}
+function openShop(){document.getElementById('shop-view').style.display='block';updateCoins()}
+function closeShop(){document.getElementById('shop-view').style.display='none'}
+function pauseAndShop(){exitGame();openShop()}
+function buyChar(c,cost){if(ownedChars.includes(c)){currentChar=c;localStorage.setItem('char',c);alert('Equipped ✅')}else if(coins>=cost){coins-=cost;ownedChars.push(c);currentChar=c;localStorage.setItem('coins',coins);localStorage.setItem('char',c);localStorage.setItem('owned',JSON.stringify(ownedChars));updateCoins();alert('Purchased 🎉')}else alert('Need '+(cost-coins)+' more')}
+let gameRunning=false,animId,scene,camera,renderer,player,car;
+function exitGame(){gameRunning=false;cancelAnimationFrame(animId);document.getElementById('game-view').style.display='none';document.getElementById('game-canvas').innerHTML='';document.getElementById('play-screen').classList.add('hidden');document.getElementById('game-grid').classList.remove('hidden')}
+function getCharColor(){return{purple:0xa78bfa,red:0xff4444,blue:0x4444ff,gold:0xffd700}[currentChar]||0xa78bfa}
+function createPlayer(){const g=new THREE.Group(),c=getCharColor(),b=new THREE.Mesh(new THREE.BoxGeometry(.6,.8,.6),new THREE.MeshPhongMaterial({color:c}));b.position.y=.4;g.add(b);const l=new THREE.Mesh(new THREE.BoxGeometry(.2,.6,.2),new THREE.MeshPhongMaterial({color:c-0x111111}));l.position.set(-.15,-.1,0);g.add(l);const r=l.clone();r.position.set(.15,-.1,0);g.add(r);return g}
+function createCar(){const g=new THREE.Group(),b=new THREE.Mesh(new THREE.BoxGeometry(1.2,.5,2),new THREE.MeshPhongMaterial({color:getCharColor()}));b.position.y=.25;g.add(b);const t=new THREE.Mesh(new THREE.BoxGeometry(.8,.4,1),new THREE.MeshPhongMaterial({color:0x333333}));t.position.set(0,.65,-.2);g.add(t);const w=new THREE.Mesh(new THREE.CylinderGeometry(.2,.2,.1,16),new THREE.MeshPhongMaterial({color:0x222222}));w.rotation.z=Math.PI/2;[-.6,.6].forEach(x=>[.6,-.6].forEach(z=>{const c=w.clone();c.position.set(x,0,z);g.add(c)}));return g}
+function launchGame(t){document.getElementById('game-view').style.display='block';document.getElementById('game-grid').classList.add('hidden');gameRunning=true;const c=document.getElementById('game-canvas');c.innerHTML='';scene=new THREE.Scene();camera=new THREE.PerspectiveCamera(60,innerWidth/innerHeight,.1,200);renderer=new THREE.WebGLRenderer({antialias:true});renderer.setSize(innerWidth,innerHeight);c.appendChild(renderer.domElement);document.getElementById('score').textContent=coins;if(t==='obby')setupObby();else if(t==='parkour')setupParkour();else if(t==='pizza')setupPizza();else if(t==='racing')setupRacing();else if(t==='survival')setupSurvival();else if(t==='tower')setupTowerDefense()}
+function setupObby(){const cfg={1:{plats:15,size:2.8,gap:2.5,mobs:0,obs:0,bg:0x1a0a3e},2:{plats:20,size:2.3,gap:3,mobs:0,obs:3,bg:0x2a1a4e},3:{plats:25,size:1.8,gap:3.5,mobs:2,obs:5,bg:0x3a2a5e},4:{plats:30,size:1.5,gap:4,mobs:4,obs:7,bg:0x4a3a6e}},c=cfg[obbyLevel]||cfg[1];scene.background=new THREE.Color(c.bg);scene.add(new THREE.AmbientLight(0x6644aa,.6));const l=new THREE.DirectionalLight(0xffffff,.8);l.position.set(5,20,10);scene.add(l);document.getElementById('level-hud').textContent='Obby Lv '+obbyLevel;const plats=[],cols=[0xc084fc,0x60a5fa,0x34d399,0xfbbf24,0xf87171];for(let i=0;i<c.plats;i++){const p=new THREE.Mesh(new THREE.BoxGeometry(c.size,.4,c.size),new THREE.MeshPhongMaterial({color:cols[i%5]}));p.position.set((Math.random()-.5)*8,i*c.gap,(Math.random()-.5)*8);scene.add(p);plats.push(p)}const obs=[];for(let i=0;i<c.obs;i++){const o=new THREE.Mesh(new THREE.BoxGeometry(.6,2,.6),new THREE.MeshPhongMaterial({color:0xff0000}));o.position.set((Math.random()-.5)*8,(i+3)*c.gap+1,(Math.random()-.5)*8);scene.add(o);obs.push(o)}const mobs=[];for(let i=0;i<c.mobs;i++){const m=new THREE.Mesh(new THREE.BoxGeometry(.5,.5,.5),new THREE.MeshPhongMaterial({color:0xff4444}));m.position.set((Math.random()-.5)*8,(i+5)*c.gap+1,(Math.random()-.5)*8);m.userData={vx:(Math.random()-.5)*.1,vz:(Math.random()-.5)*.1};scene.add(m);mobs.push(m)}player=createPlayer();player.position.set(plats[0].position.x,plats[0].position.y+1,plats[0].position.z);scene.add(player);let vy=0,onGround=false,prog=0;const keys={};document.addEventListener('keydown',e=>keys[e.code]=true);document.addEventListener('keyup',e=>keys[e.code]=false);function animate(){if(!gameRunning)return;animId=requestAnimationFrame(animate);const s=.12;if(keys.KeyA||keys.ArrowLeft)player.position.x-=s;if(keys.KeyD||keys.ArrowRight)player.position.x+=s;if(keys.KeyW||keys.ArrowUp)player.position.z-=s;if(keys.KeyS||keys.ArrowDown)player.position.z+=s;if(keys.Space&&onGround){vy=.35;onGround=false}vy-=.02;player.position.y+=vy;onGround=false;for(const p of plats){if(Math.abs(player.position.x-p.position.x)<c.size/2+.3&&Math.abs(player.position.z-p.position.z)<c.size/2+.3&&player.position.y-p.position.y>0&&player.position.y-p.position.y<1.2&&vy<=0){player.position.y=p.position.y+.6;vy=0;onGround=true;const i=plats.indexOf(p);if(i+1>prog){prog=i+1;coins++;document.getElementById('score').textContent=coins;localStorage.setItem('coins',coins);if(prog>=c.plats){obbyLevel++;if(obbyLevel>4)obbyLevel=1;localStorage.setItem('obbyLevel',obbyLevel);alert('Level Complete! 🎉');exitGame();launchGame('obby');return}}}}for(const o of obs)if(player.position.distanceTo(o.position)<.8){player.position.copy(plats[0].position);player.position.y+=1;vy=0}mobs.forEach(m=>{m.position.x+=m.userData.vx;m.position.z+=m.userData.vz;if(Math.abs(m.position.x)>10)m.userData.vx*=-1;if(Math.abs(m.position.z)>10)m.userData.vz*=-1;if(player.position.distanceTo(m.position)<.8){player.position.copy(plats[0].position);player.position.y+=1;vy=0}});if(player.position.y<-10){player.position.copy(plats[0].position);player.position.y+=1;vy=0}camera.position.set(player.position.x,player.position.y+6,player.position.z+12);camera.lookAt(player.position);renderer.render(scene,camera)}animate()}
+function setupParkour(){const cfg={1:{buildings:10,spacing:9,heights:[8,12],bg:0x87ceeb,bc:0x666666,wc:0x88ccff,goal:10},2:{buildings:15,spacing:11,heights:[10,18],bg:0xff6b9d,bc:0x444444,wc:0xffaa00,goal:15},3:{buildings:20,spacing:13,heights:[15,25],bg:0x9d50bb,bc:0x222222,wc:0xff0000,goal:20}},c=cfg[parkourLevel]||cfg[1];scene.background=new THREE.Color(c.bg);scene.add(new THREE.AmbientLight(0xffffff,.7));document.getElementById('level-hud').textContent='Parkour Lv '+parkourLevel;for(let i=0;i<30;i++){const h=15+Math.random()*25,bg=new THREE.Mesh(new THREE.BoxGeometry(6,h,6),new THREE.MeshPhongMaterial({color:c.bc-0x222222}));bg.position.set((Math.random()-.5)*100,(h/2)-5,(Math.random()-.5)*100-30);scene.add(bg)}const blds=[];for(let i=0;i<c.buildings;i++){const h=c.heights[0]+Math.random()*(c.heights[1]-c.heights[0]),b=new THREE.Mesh(new THREE.BoxGeometry(5,h,5),new THREE.MeshPhongMaterial({color:c.bc}));b.position.set(i*c.spacing-50,h/2,0);scene.add(b);const w=new THREE.Mesh(new THREE.BoxGeometry(4.5,h-.5,4.5),new THREE.MeshPhongMaterial({color:c.wc}));w.position.copy(b.position);w.position.y+=.2;scene.add(w);blds.push(b)}player=createPlayer();player.position.set(-50,blds[0].geometry.parameters.height+.5,0);scene.add(player);let vy=0,onGround=false,prog=0;const keys={};document.addEventListener('keydown',e=>keys[e.code]=true);document.addEventListener('keyup',e=>keys[e.code]=false);function animate(){if(!gameRunning)return;animId=requestAnimationFrame(animate);const s=.15;if(keys.KeyA||keys.ArrowLeft)player.position.x-=s;if(keys.KeyD||keys.ArrowRight)player.position.x+=s;if(keys.Space&&onGround){vy=.5;onGround=false}vy-=.02;player.position.y+=vy;onGround=false;for(const b of blds){const t=b.position.y+b.geometry.parameters.height/2;if(Math.abs(player.position.x-b.position.x)<2.5&&Math.abs(player.position.z-b.position.z)<2.5&&player.position.y-t>-.5&&player.position.y-t<1&&vy<=0){player.position.y=t+.5;vy=0;onGround=true;const i=blds.indexOf(b)+1;if(i>prog){prog=i;coins++;document.getElementById('score').textContent=coins;localStorage.setItem('coins',coins);if(prog>=c.goal){parkourLevel++;if(parkourLevel>3)parkourLevel=1;localStorage.setItem('parkourLevel',parkourLevel);alert('Level Complete! 🎉');exitGame();launchGame('parkour');return}}}}if(player.position.y<-5){player.position.set(-50,blds[0].geometry.parameters.height+.5,0);vy=0}camera.position.set(player.position.x,player.position.y+8,player.position.z+15);camera.lookAt(player.position);renderer.render(scene,camera)}animate()}
+function setupPizza(){scene.background=new THREE.Color(0xffebcd);scene.add(new THREE.AmbientLight(0xffffff,.8));const f=new THREE.Mesh(new THREE.PlaneGeometry(20,20),new THREE.MeshPhongMaterial({color:0x8b4513}));f.rotation.x=-Math.PI/2;scene.add(f);const ords=[];function spawn(){const o=new THREE.Mesh(new THREE.BoxGeometry(.8,.8,.8),new THREE.MeshPhongMaterial({color:0xff6347}));o.position.set((Math.random()-.5)*15,.5,(Math.random()-.5)*15);scene.add(o);ords.push(o)}setInterval(()=>{if(gameRunning)spawn()},3000);player=createPlayer();player.position.set(0,.5,0);scene.add(player);const keys={};document.addEventListener('keydown',e=>keys[e.code]=true);document.addEventListener('keyup',e=>keys[e.code]=false);function animate(){if(!gameRunning)return;animId=requestAnimationFrame(animate);const s=.15;if(keys.KeyA||keys.ArrowLeft)player.position.x-=s;if(keys.KeyD||keys.ArrowRight)player.position.x+=s;if(keys.KeyW||keys.ArrowUp)player.position.z-=s;if(keys.KeyS||keys.ArrowDown)player.position.z+=s;ords.forEach((o,i)=>{if(player.position.distanceTo(o.position)<1.5){scene.remove(o);ords.splice(i,1);coins+=5;document.getElementById('score').textContent=coins;localStorage.setItem('coins',coins)}});camera.position.set(0,15,15);camera.lookAt(0,0,0);renderer.render(scene,camera)}animate()}
+function setupRacing(){scene.background=new THREE.Color(0x222222);scene.add(new THREE.AmbientLight(0xffffff,.6));const t=new THREE.Mesh(new THREE.PlaneGeometry(10,100),new THREE.MeshPhongMaterial({color:0x333333}));t.rotation.x=-Math.PI/2;scene.add(t);car=createCar();car.position.set(0,.25,0);scene.add(car);const obs=[];for(let i=0;i<10;i++){const o=new THREE.Mesh(new THREE.BoxGeometry(1,1,1),new THREE.MeshPhongMaterial({color:0xff0000}));o.position.set((Math.random()-.5)*8,.5,-10-i*10);scene.add(o);obs.push(o)}const keys={};document.addEventListener('keydown',e=>keys[e.code]=true);document.addEventListener('keyup',e=>keys[e.code]=false);function animate(){if(!gameRunning)return;animId=requestAnimationFrame(animate);const s=.15;if(keys.KeyA||keys.ArrowLeft)car.position.x-=s;if(keys.KeyD||keys.ArrowRight)car.position.x+=s;car.position.z-=.2;coins++;document.getElementById('score').textContent=coins;localStorage.setItem('coins',coins);obs.forEach(o=>{o.position.z+=.2;if(o.position.z>10)o.position.z=-100;if(car.position.distanceTo(o.position)<1.5)car.position.set(0,.25,0)});camera.position.set(car.position.x,car.position.y+5,car.position.z+8);camera.lookAt(car.position);renderer.render(scene,camera)}animate()}
+function setupSurvival(){scene.background=new THREE.Color(0x87ceeb);scene.add(new THREE.AmbientLight(0xffffff,.8));const g=new THREE.Mesh(new THREE.PlaneGeometry(50,50),new THREE.MeshPhongMaterial({color:0x90ee90}));g.rotation.x=-Math.PI/2;scene.add(g);const cs=[];for(let i=0;i<30;i++){const c=new THREE.Mesh(new THREE.CylinderGeometry(.3,.3,.1,16),new THREE.MeshPhongMaterial({color:0xffd700}));c.position.set((Math.random()-.5)*40,.5,(Math.random()-.5)*40);c.rotation.x=Math.PI/2;scene.add(c);cs.push(c)}player=createPlayer();player.position.set(0,.5,0);scene.add(player);const keys={};document.addEventListener('keydown',e=>keys[e.code]=true);document.addEventListener('keyup',e=>keys[e.code]=false);let col=0;function animate(){if(!gameRunning)return;animId=requestAnimationFrame(animate);const s=.12;if(keys.KeyA||keys.ArrowLeft)player.position.x-=s;if(keys.KeyD||keys.ArrowRight)player.position.x+=s;if(keys.KeyW||keys.ArrowUp)player.position.z-=s;if(keys.KeyS||keys.ArrowDown)player.position.z+=s;cs.forEach((c,i)=>{c.rotation.y+=.05;if(player.position.distanceTo(c.position)<1){scene.remove(c);cs.splice(i,1);coins+=2;col++;document.getElementById('score').textContent=coins+' ('+col+'/30)';localStorage.setItem('coins',coins)}});camera.position.set(player.position.x,player.position.y+10,player.position.z+15);camera.lookAt(player.position);renderer.render(scene,camera)}animate()}
+function setupTowerDefense(){scene.background=new THREE.Color(0x4a5568);scene.add(new THREE.AmbientLight(0xffffff,.7));const b=new THREE.Mesh(new THREE.BoxGeometry(3,3,3),new THREE.MeshPhongMaterial({color:0x3b82f6}));b.position.set(0,1.5,-10);scene.add(b);const ens=[];function spawn(){const e=new THREE.Mesh(new THREE.BoxGeometry(.8,.8,.8),new THREE.MeshPhongMaterial({color:0xff0000}));e.position.set((Math.random()-.5)*20,.5,20);scene.add(e);ens.push(e)}setInterval(()=>{if(gameRunning)spawn()},1500);player=createPlayer();player.position.set(0,.5,5);scene.add(player);const keys={};let cd=0;document.addEventListener('keydown',e=>keys[e.code]=true);document.addEventListener('keyup',e=>keys[e.code]=false);function animate(){if(!gameRunning)return;animId=requestAnimationFrame(animate);const s=.12;if(keys.KeyA||keys.ArrowLeft)player.position.x-=s;if(keys.KeyD||keys.ArrowRight)player.position.x+=s;cd--;if(keys.Space&&cd<=0&&ens.length>0){const t=ens[0];scene.remove(t);ens.shift();coins+=3;document.getElementById('score').textContent=coins;localStorage.setItem('coins',coins);cd=20}ens.forEach((e,i)=>{e.position.z-=.05;if(e.position.z<-10){scene.remove(e);ens.splice(i,1)}});camera.position.set(0,15,10);camera.lookAt(0,0,0);renderer.render(scene,camera)}animate()}
+addEventListener('resize',()=>{if(!gameRunning||!camera||!renderer)return;camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+</script>
 </body>
 </html>
