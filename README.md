@@ -1,18 +1,8 @@
 # GlimWorld™
 
-**The Builder-Focused Community for Gimkit Creative Creators**
+**A Creative World & Community for Everyone!**
 
 🎮 **Build** • 🎨 **Share** • 🤝 **Collaborate** • 🚀 **Learn**
-
----
-
-## 📰 Latest News
-
-**[→ View All News & Updates](NEWS.md)**
-
-🎉 **June 8, 2026** — Major SEO & Partnership Launch! GlimWorld now discoverable across all search engines with professional partnership program.
-
-🏆 **June 15, 2026** — Edu Space (GlimWorld Education) is now in GlimWorld! Start learning: https://padlet.com/GlimWorldForever/GlimWorld
 
 ---
 
