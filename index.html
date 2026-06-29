@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlimWorld - Creative Community for Gimkit Builders</title>
-  <meta name="description" content="Join GlimWorld - A creative community for Gimkit builders. Share, learn, collaborate, and grow with thousands of creators.">
+  <title>GlimWorld – Creative Community for Gimkit Creators (v1.2.0)</title>
+  <meta name="description" content="GlimWorld v1.2.0 – A creative community for Gimkit creators. Share projects, learn techniques, get help, and collaborate with thousands of creators.">
   <script src="https://cdn.tailwindcss.com"></script>
+
   <style>
     *{scroll-behavior:smooth}
     body{font-family:system-ui,-apple-system,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;margin:0;line-height:1.6}
@@ -32,7 +33,7 @@
     @media(max-width:768px){
       .hero h1{font-size:2.5rem!important}
       .nav{padding:12px 0}
-      .nav-links{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+      .nav-links{display:flex;flex-wrap:wrap;gap:8px;justify:center}
       .card{padding:20px}
       .btn{padding:12px 20px;font-size:14px}
     }
@@ -42,6 +43,7 @@
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}
   </style>
 </head>
+
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
@@ -52,54 +54,87 @@
         <a href="#quick-start">Quick Start</a>
         <a href="#links">Links</a>
         <a href="#values">Values</a>
-        <!-- <a href="#partnerships">Partnerships</a> -->
+        <a href="#game">Game</a>
       </div>
     </div>
   </nav>
 
   <main id="main-content" class="max-w-6xl mx-auto p-4 md:p-6">
+
+    <!-- HERO -->
     <header class="hero text-white">
       <div role="img" aria-label="GlimWorld logo" style="font-size:4rem;margin-bottom:16px">🌟</div>
       <h1 class="text-4xl md:text-6xl font-black mb-3">GlimWorld™</h1>
-      <p class="text-xl md:text-2xl mb-2">A Creative Community for Gimkit Builders</p>
+      <p class="text-xl md:text-2xl mb-2">A Creative Community for Gimkit Creators</p>
+
       <p class="text-base md:text-lg opacity-90 flex flex-wrap justify-center gap-3 mt-4">
         <span>🎮 Build</span>
         <span>🎨 Share</span>
         <span>🤝 Collaborate</span>
         <span>🚀 Learn</span>
       </p>
+
       <div class="mt-8 flex flex-wrap gap-4 justify-center">
-        <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer" class="btn" aria-label="Join GlimWorld Padlet community">
+        <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" class="btn">
           Join Community Now
         </a>
-        <a href="#quick-start" class="btn btn-secondary" aria-label="Learn how to get started">
+        <a href="#quick-start" class="btn btn-secondary">
           Get Started
         </a>
       </div>
     </header>
 
+    <!-- 🎮 GLIMWORLD GAME SECTION -->
+    <section id="game" class="section">
+      <div class="card text-center">
+        <h2 class="text-3xl font-bold mb-4">🎮 Play the GlimWorld Game</h2>
+        <p class="text-gray-700 mb-6 text-lg">
+          Explore the glowing universe of GlimWorld — a fun, interactive game built by the community.
+          No downloads needed. Just click and play instantly.
+        </p>
+
+        <a href="https://glim-world--lomov0.replit.app" 
+           target="_blank" 
+           class="btn text-xl px-10 py-4">
+          ▶ Play GlimWorld Now
+        </a>
+
+        <p class="text-sm text-gray-600 mt-4">
+          Hosted — works on all devices.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
     <section id="about" class="section">
       <div class="card">
         <h2 class="text-2xl md:text-3xl font-bold mb-4">What is GlimWorld?</h2>
-        <p class="text-gray-700 mb-6 text-base md:text-lg">GlimWorld is an independent, community-run platform for Gimkit Creative builders of all levels. Share your creations, learn new techniques, get help, and collaborate with thousands of builders worldwide.</p>
+        <p class="text-gray-700 mb-6 text-base md:text-lg">
+          GlimWorld is an independent, community‑run platform for all Gimkit Creative creators.
+          Share your projects, learn new techniques, get help, and collaborate with creators worldwide.
+        </p>
+
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div class="feature-box bg-purple-50 text-center" tabindex="0" role="article" aria-label="Share your creations">
-            <div class="text-4xl mb-2" role="img" aria-label="Chat icon">💬</div>
+          <div class="feature-box bg-purple-50 text-center" tabindex="0">
+            <div class="text-4xl mb-2">💬</div>
             <h3 class="font-bold text-lg mb-1">Share</h3>
             <p class="text-sm text-gray-600">Showcase your creations to thousands</p>
           </div>
-          <div class="feature-box bg-blue-50 text-center" tabindex="0" role="article" aria-label="Learn new techniques">
-            <div class="text-4xl mb-2" role="img" aria-label="Book icon">📚</div>
+
+          <div class="feature-box bg-blue-50 text-center" tabindex="0">
+            <div class="text-4xl mb-2">📚</div>
             <h3 class="font-bold text-lg mb-1">Learn</h3>
             <p class="text-sm text-gray-600">Access tutorials and expert tips</p>
           </div>
-          <div class="feature-box bg-green-50 text-center" tabindex="0" role="article" aria-label="Get help from community">
-            <div class="text-4xl mb-2" role="img" aria-label="Help icon">🆘</div>
+
+          <div class="feature-box bg-green-50 text-center" tabindex="0">
+            <div class="text-4xl mb-2">🆘</div>
             <h3 class="font-bold text-lg mb-1">Get Help</h3>
             <p class="text-sm text-gray-600">Troubleshoot with the community</p>
           </div>
-          <div class="feature-box bg-yellow-50 text-center" tabindex="0" role="article" aria-label="Collaborate with builders">
-            <div class="text-4xl mb-2" role="img" aria-label="Handshake icon">🤝</div>
+
+          <div class="feature-box bg-yellow-50 text-center" tabindex="0">
+            <div class="text-4xl mb-2">🤝</div>
             <h3 class="font-bold text-lg mb-1">Collaborate</h3>
             <p class="text-sm text-gray-600">Build amazing projects together</p>
           </div>
@@ -107,101 +142,126 @@
       </div>
     </section>
 
+    <!-- QUICK START -->
     <section id="quick-start" class="section">
       <div class="grid md:grid-cols-2 gap-6">
         <div class="card">
           <h2 class="text-2xl font-bold mb-4">🚀 Quick Start</h2>
+
           <ol class="space-y-4 text-gray-700">
             <li class="flex gap-3">
-              <span class="font-bold text-purple-600 text-xl flex-shrink-0">1.</span>
-              <span><strong>Visit GlimWorld Padlet</strong> - Join our active community hub</span>
+              <span class="font-bold text-purple-600 text-xl">1.</span>
+              <span><strong>Visit GlimWorld Padlet</strong> – Join our active community hub</span>
             </li>
             <li class="flex gap-3">
-              <span class="font-bold text-purple-600 text-xl flex-shrink-0">2.</span>
-              <span><strong>Review Guidelines</strong> - Understand our community values</span>
+              <span class="font-bold text-purple-600 text-xl">2.</span>
+              <span><strong>Review Guidelines</strong> – Understand our community values</span>
             </li>
             <li class="flex gap-3">
-              <span class="font-bold text-purple-600 text-xl flex-shrink-0">3.</span>
-              <span><strong>Start Building</strong> - Share your creations and connect!</span>
+              <span class="font-bold text-purple-600 text-xl">3.</span>
+              <span><strong>Start Building</strong> – Share your creations and connect!</span>
             </li>
           </ol>
-          <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer" class="btn mt-6 w-full" aria-label="Join GlimWorld Padlet now">
+
+          <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" class="btn mt-6 w-full">
             Join Padlet Now →
           </a>
         </div>
-
-        <div class="card" id="links">
-          <h2 class="text-2xl font-bold mb-4">📱 Community Links</h2>
-          <nav aria-label="Community resources">
-            <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer" class="link-card text-purple-600 font-semibold">
-              💬 Padlet Community
-              <span class="text-sm block text-gray-600 mt-1">Join discussions and share builds</span>
-            </a>
-            <a href="https://coolsparkz.github.io/GlimWorld/" target="_blank" rel="noopener noreferrer" class="link-card text-purple-600 font-semibold">
-              📰 News & Updates
-              <span class="text-sm block text-gray-600 mt-1">Latest announcements and events</span>
-            </a>
-            <a href="https://github.com/coolsparkz/GlimWorld" target="_blank" rel="noopener noreferrer" class="link-card text-purple-600 font-semibold">
-              🐙 GitHub Repository
-              <span class="text-sm block text-gray-600 mt-1">Contribute to the project</span>
-            </a>
-            <a href="https://github.com/coolsparkz/GlimWorld/blob/main/CONTRIBUTING.md/" target="_blank" rel="noopener noreferrer" class="link-card text-purple-600 font-semibold">
-              📧 Contact Form
-              <span class="text-sm block text-gray-600 mt-1">Send feedback or questions</span>
-            </a>
-          </nav>
-        </div>
       </div>
     </section>
 
+    <!-- LINKS -->
+    <section id="links" class="section">
+      <div class="card">
+        <h2 class="text-2xl font-bold mb-4">📱 Community Links</h2>
+
+        <nav aria-label="Community resources">
+          <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" class="link-card text-purple-600 font-semibold">
+            💬 Padlet Community
+            <span class="text-sm block text-gray-600 mt-1">Join discussions and share builds</span>
+          </a>
+
+          <a href="https://coolsparkz.github.io/GlimWorld/" target="_blank" class="link-card text-purple-600 font-semibold">
+            📰 News & Updates
+            <span class="text-sm block text-gray-600 mt-1">Latest announcements and events</span>
+          </a>
+
+          <a href="https://github.com/coolsparkz/GlimWorld" target="_blank" class="link-card text-purple-600 font-semibold">
+            🐙 GitHub Repository
+            <span class="text-sm block text-gray-600 mt-1">Contribute to the project</span>
+          </a>
+
+          <a href="https://github.com/coolsparkz/GlimWorld/blob/main/CONTRIBUTING.md" target="_blank" class="link-card text-purple-600 font-semibold">
+            📧 Contact Form
+            <span class="text-sm block text-gray-600 mt-1">Send feedback or questions</span>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- VALUES -->
     <section id="values" class="section">
       <div class="card">
         <h2 class="text-2xl font-bold mb-4">🎯 Core Community Values</h2>
+
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
           <div class="value-card bg-green-50" tabindex="0">
-            <div class="text-2xl mb-2" role="img" aria-label="Checkmark">✅</div>
+            <div class="text-2xl mb-2">✅</div>
             <h3 class="font-bold mb-1">Respectful</h3>
             <p class="text-sm text-gray-600">Kind and supportive to all members</p>
           </div>
+
           <div class="value-card bg-blue-50" tabindex="0">
-            <div class="text-2xl mb-2" role="img" aria-label="Art palette">🎨</div>
+            <div class="text-2xl mb-2">🎨</div>
             <h3 class="font-bold mb-1">Creative</h3>
             <p class="text-sm text-gray-600">Share knowledge and inspire others</p>
           </div>
+
           <div class="value-card bg-purple-50" tabindex="0">
-            <div class="text-2xl mb-2" role="img" aria-label="Light bulb">💡</div>
+            <div class="text-2xl mb-2">💡</div>
             <h3 class="font-bold mb-1">Problem-Solving</h3>
             <p class="text-sm text-gray-600">Help each other overcome challenges</p>
           </div>
+
           <div class="value-card bg-yellow-50" tabindex="0">
-            <div class="text-2xl mb-2" role="img" aria-label="Books">📚</div>
+            <div class="text-2xl mb-2">📚</div>
             <h3 class="font-bold mb-1">Educational</h3>
             <p class="text-sm text-gray-600">Prioritize learning and growth</p>
           </div>
+
           <div class="value-card bg-red-50" tabindex="0">
-            <div class="text-2xl mb-2" role="img" aria-label="No entry">🚫</div>
+            <div class="text-2xl mb-2">🚫</div>
             <h3 class="font-bold mb-1">No Spam</h3>
             <p class="text-sm text-gray-600">Keep community clean and focused</p>
           </div>
+
           <div class="value-card bg-indigo-50" tabindex="0">
-            <div class="text-2xl mb-2" role="img" aria-label="Handshake">🤝</div>
+            <div class="text-2xl mb-2">🤝</div>
             <h3 class="font-bold mb-1">Collaborative</h3>
             <p class="text-sm text-gray-600">Build amazing things together</p>
           </div>
+
         </div>
       </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="text-center text-white py-8">
       <p class="text-lg font-bold mb-3">Build. Share. Collaborate. Keep it real. 🚀</p>
-      <p class="opacity-90 mb-2">2026 GlimWorld - A Community for Builders</p>
-      <p class="text-sm opacity-75">Glimworld is not associated with Gimkit or it's affiliates in any way. All copyrights are property of their respective owners.</p>
+      <p class="opacity-90 mb-2">2026 GlimWorld - A Community for Creators</p>
+      <p class="text-sm opacity-75">
+        GlimWorld is not associated with Gimkit or its affiliates in any way.
+        All copyrights are property of their respective owners.
+      </p>
+
       <div class="mt-6 flex flex-wrap justify-center gap-4">
-        <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer" class="text-white hover:underline">Padlet</a>
-        <a href="https://github.com/coolsparkz/GlimWorld" target="_blank" rel="noopener noreferrer" class="text-white hover:underline">GitHub</a>
-        <a href="https://coolsparkz.github.io/GlimWorld/" target="_blank" rel="noopener noreferrer" class="text-white hover:underline">Website</a>
+        <a href="https://padlet.com/GlimWorldForever/glimworld-romw9j63mcbzwbjb" target="_blank" class="text-white hover:underline">Padlet</a>
+        <a href="https://github.com/coolsparkz/GlimWorld" target="_blank" class="text-white hover:underline">GitHub</a>
+        <a href="https://coolsparkz.github.io/GlimWorld/" target="_blank" class="text-white hover:underline">Website</a>
       </div>
     </footer>
+
   </main>
 </body>
 </html>
